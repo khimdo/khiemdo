@@ -23,7 +23,7 @@ section nav{
     position: fixed;
     right: 0;
     left: 0;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 1000;
 }
@@ -45,7 +45,7 @@ section nav ul li{
 
 section nav ul li a{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-weight: 500;
     font-size: 17px;
     transition: 0.1s;
@@ -188,11 +188,11 @@ section .main_btn:hover i{
 }
 
 .menu .menu_box .menu_card{
-    width: 700px;
+    width: 480px;
     height: 480px;
     padding-top: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(143, 28, 28, 0.2);
 }
 
 .menu .menu_box .menu_card .menu_image{
